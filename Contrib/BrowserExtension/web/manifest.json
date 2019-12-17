@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "HTMLCodeSniffer",
+  "version": "0.0.41",
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "Start HTMLCOdeSniffer on this page.",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "assets/js/HTMLCS.js"
+      ],
+      "run_at": "document_end",
+      "persistent": true
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/css/Images/*",
+    "assets/js/index.js",
+    "assets/js/HTMLCS.js",
+    "assets/css/index.css",
+    "assets/css/HTMLCS.css"
+  ]
+}

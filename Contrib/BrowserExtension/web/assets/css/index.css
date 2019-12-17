@@ -1,0 +1,82 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+#HTMLCS-wrapper {
+    -moz-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    right: 3em;
+    width: 300px;
+    overflow: hidden;
+    background-color: #2B2B2B;
+    border: 1px solid #2B2B2B;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7), 0 1px 0 #555555 inset;
+    color: #2B2B2B;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-family: Arial,Sans Serif;
+    font-size: 9px;
+    z-index: 100000;
+}
+
+
+#HTMLCS-wrapper .HTMLCS-header {
+    color: #AAAAAA;
+    text-shadow: 0 -1px 0 #000000;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding-top: 0.2em;
+    text-align: center;
+    border-bottom: 1px solid transparent;
+    cursor: move;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#HTMLCS-wrapper .HTMLCS-close {
+    position: absolute;
+    cursor: pointer;
+    height: 2.2em;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    right: 0;
+    top: 0;
+    width: 2.2em;
+}
+
+
+.HTMLCS-body {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-top: 1px solid #565656;
+    padding-top: 10px;
+}
+
+.HTMLCS-body .run-HTMLCS {
+    font-size: 12px;
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.HTMLCS-footer {
+    text-align: center;
+    color: #797979;
+    text-shadow: none;
+    font-size: 8px;
+    border-top: 1px solid #565656;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
