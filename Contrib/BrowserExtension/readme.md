@@ -49,12 +49,12 @@ There are all the necessary files that are necessary to manually install the add
 
 Here is a short guide how to install an unpacked extension on Google Chrome or Firefox.
 
-###Chrome
+### Chrome
 - Visit ```chrome://extensions/``` in your Chrome browser
 - Click Load Unpacked
 - Select the extension’s folder
-
-###Firefox
+ 
+### Firefox
 
 - Visit ```about:debugging```
 - Click on Load Temporary Add-on
