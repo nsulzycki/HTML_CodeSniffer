@@ -18,7 +18,12 @@
     } else {
         var exports = factory();
         for (var prop in exports) {
-            root[prop] = exports[prop];
+            if (root.window) {
+                // firefox WebExtension sandbox workaround
+                root.window[prop] = exports[prop];
+            } else {
+                root[prop] = exports[prop];
+            }
         }
     }
 }(this, function () {

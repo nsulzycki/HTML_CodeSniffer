@@ -6,7 +6,7 @@ build/
 node_modules/
 Auditor/Auditor_with_beacon.js
 *.tgz
-
+/webExt
 # OS generated files #
 ######################
 .DS_Store

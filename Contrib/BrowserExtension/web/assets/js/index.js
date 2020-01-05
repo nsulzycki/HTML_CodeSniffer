@@ -4,16 +4,20 @@
 // Called when the user clicks on the browser action.
 
 function runHTMLCS() {
+    var browser = browser || chrome;
 
     // var path = '//squizlabs.github.io/HTML_CodeSniffer/build/';
-    var path = chrome.extension.getURL("assets/css/");     //Get absolute path of the file residing your extension.
+    var path = browser.extension.getURL("assets/css/");     //Get absolute path of the file residing your extension.
 
     var lang = this.dataset.lang;
-    chrome.tabs.executeScript({
-        code: 'HTMLCSAuditor.run(\'WCAG2AA\', null, { lang: \''+lang+'\', path: \''+path+'\'});'
+    browser.tabs.executeScript({
+        code: 'HTMLCSAuditor.run(\'WCAG2AA\', null, { lang: \'' + lang + '\', path: \'' + path + '\'});'
     });
 }
 
-for(var i=0; i<=5; i++) {
-    document.getElementsByClassName('run-HTMLCS')[i].addEventListener('click', runHTMLCS);
+var buttonElement = document.getElementsByClassName('run-HTMLCS');
+
+for (var i = 0; i < buttonElement.length; i++) {
+    buttonElement[i].addEventListener('click', runHTMLCS);
 }
+

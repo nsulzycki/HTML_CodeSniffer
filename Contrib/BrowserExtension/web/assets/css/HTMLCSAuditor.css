@@ -102,7 +102,7 @@
 
 #HTMLCS-wrapper .HTMLCS-close:after {
     position: absolute;
-    background: transparent url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") 0 -61px no-repeat;
+    background: transparent url("/assets/css/Images/HTMLCS-tools.png") 0 -61px no-repeat;
     content: "";
     display: block;
     height: 10px;
@@ -190,7 +190,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-lineage .HTMLCS-lineage-item:before {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -74px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -74px transparent;
     content: "";
     position: absolute;
     left: 0;
@@ -205,7 +205,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-lineage .HTMLCS-lineage-item:first-child .HTMLCS-lineage-link:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll -40px -281px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll -40px -281px transparent;
     content: "";
     display: block;
     position: absolute;
@@ -228,7 +228,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-inner-wrapper {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
+    background: url("/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
     border-radius: 0 0 0.75em 0.75em;
     text-align: left;
     display: none;
@@ -291,7 +291,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-issue-type:before {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 0 transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 0 transparent;
     content: "";
     height: 14px;
     left: 50%;
@@ -302,7 +302,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-issue-list > li:after {
-  background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -108px transparent;
+  background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -108px transparent;
   content: "";
   height: 14px;
   margin-top: -7px;
@@ -426,7 +426,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-issue-detail-list > li .HTMLCS-issue-wcag-ref > a:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -48px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -48px transparent;
     content: "";
     display: inline-block;
     opacity: 0.6;
@@ -444,7 +444,7 @@
 #HTMLCS-wrapper .HTMLCS-issue-source {
     position: relative;
     display: block;
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
+    background: url("/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
     border-top: 1px solid #6C6C6D;
     font-size: 1em;
     padding: 0.5em;
@@ -529,7 +529,7 @@
 
 #HTMLCS-wrapper .HTMLCS-nav-button.HTMLCS-previous:after,
 #HTMLCS-wrapper .HTMLCS-nav-button.HTMLCS-next:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -237px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -237px transparent;
     content: "";
     height: 14px;
     left: 50%;
@@ -601,7 +601,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-button-icon {
-    background-image: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png");
+    background-image: url("/assets/css/Images/HTMLCS-tools.png");
     height: 20px;
     left: 50%;
     margin: -10px 0 0 -12.5px;
@@ -628,7 +628,7 @@
 
 #HTMLCS-wrapper .HTMLCS-settings {
     display: none;
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
+    background: url("/assets/css/Images/bgTexture1.gif") repeat scroll 0 0 #54535A;
     color: #EEEEEE;
     text-shadow: none;
 
@@ -748,7 +748,7 @@
   position: absolute;
   width: 10px;
   height: 7px;
-  background: transparent url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") 0 -124px no-repeat;
+  background: transparent url("/assets/css/Images/HTMLCS-tools.png") 0 -124px no-repeat;
   left: 0.5em;
   top: 51%;
   margin-top: -3px;
@@ -803,7 +803,7 @@
     top: 0;
     width: 50px;
     z-index: 9999;
-    background: transparent url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") -16px -64px no-repeat;
+    background: transparent url("/assets/css/Images/HTMLCS-tools.png") -16px -64px no-repeat;
 }
 .HTMLCS-pointer-up {
     background-position: -16px 0;
@@ -881,7 +881,7 @@
 }
 
 #HTMLCS-wrapper #HTMLCS-settings-view-report:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -108px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -108px transparent;
     content: "";
     height: 14px;
     margin-top: -7px;
@@ -917,7 +917,7 @@
 }
 
 #HTMLCS-wrapper.HTMLCS-processing .HTMLCS-tile-text:before {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/summaryLoader-error.gif") no-repeat scroll 50% 50% transparent;
+    background: url("/assets/css/Images/summaryLoader-error.gif") no-repeat scroll 50% 50% transparent;
     content: "";
     display: block;
     height: 30px;
@@ -929,11 +929,11 @@
 }
 
 #HTMLCS-wrapper.HTMLCS-processing .HTMLCS-issue-tile.HTMLCS-warning .HTMLCS-tile-text:before {
-    background-image: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/summaryLoader-warning.gif");
+    background-image: url("/assets/css/Images/summaryLoader-warning.gif");
 }
 
 #HTMLCS-wrapper.HTMLCS-processing .HTMLCS-issue-tile.HTMLCS-notice .HTMLCS-tile-text:before {
-    background-image: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/summaryLoader-notice.gif");
+    background-image: url("/assets/css/Images/summaryLoader-notice.gif");
 }
 
 #HTMLCS-wrapper #HTMLCS-settings-issue-count-help {
@@ -970,7 +970,7 @@
 }
 
 #HTMLCS-wrapper #HTMLCS-settings-updated-notification a:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -48px transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 -48px transparent;
     content: "";
     display: inline-block;
     opacity: 0.6;
@@ -1010,7 +1010,7 @@
 }
 
 #HTMLCS-wrapper .HTMLCS-issue-tile > .HTMLCS-tile-text:after {
-    background: url("chrome-extension://__MSG_@@extension_id__/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 0 transparent;
+    background: url("/assets/css/Images/HTMLCS-tools.png") no-repeat scroll 0 0 transparent;
     bottom: 0.6em;
     content: "";
     height: 14px;

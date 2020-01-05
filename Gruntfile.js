@@ -113,11 +113,6 @@ module.exports = function (grunt) {
                         src: 'Contrib/BrowserExtension/web/assets/js/index.js',
                         dest: 'webExt',
                         filter: 'isFile',
-                        replacements: [{
-                            // 2. Use grunt templates to reference the properties in package.json
-                            pattern: '?',
-                            replacement: '!',
-                        }],
                         rename: function (dest, src) {
                             return dest + '/assets/js/index.js';
                         },
@@ -128,7 +123,6 @@ module.exports = function (grunt) {
                         dest: 'webExt',
                         filter: 'isFile',
                         rename: function (dest, src) {
-                            console.log(src);
                             return dest + '/assets/css/index.css';
                         },
                     },
